@@ -1,0 +1,170 @@
+  #dv {
+    padding-left: 100px;
+  }  
+  #login {
+    width: 15%;
+    height: 70%;
+    background-color: white;
+    border-radius: 50px;
+    transform: translate(0px,15%);
+  }
+  input, select {
+    font-family: 'Economica';
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+  }
+    
+  input[type=submit] {
+    width: 150px;
+    background-color: #f4511e;
+    color: white;
+    padding: 10px 15px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 10000px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #FFC300;
+    text-decoration: none;
+    color: white;
+    color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+    color: -o-linear-gradient(left, #21d4fd, #b721ff);
+    color: -moz-linear-gradient(left, #21d4fd, #b721ff);
+    color: linear-gradient(left, #21d4fd, #b721ff);
+  }
+    
+  a {
+    color: #FFC300;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; 
+  }
+  
+  a:hover, a:active, a:focus {
+    color: #FFC300;
+    outline: none;
+    text-decoration: none !important;
+  }
+
+  #colorlib-aside {
+    padding-top: 3em;
+    padding-bottom: 40px;
+    padding-left: 3em;
+    padding-right: 3em;
+    width: 12%;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    overflow-y: scroll;
+    z-index: 1001;
+    background: #2C2C2C;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  
+  #colorlib-aside #colorlib-logo {
+    text-align: right;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    display: block;
+    width: 100%; 
+    
+  }
+  #colorlib-aside #colorlib-logo-admin a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-right: .3em;
+  }
+  
+  #colorlib-aside #colorlib-logo-admin {
+    text-align: right;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    display: block;
+    width: 100%; 
+    
+  }
+  #colorlib-aside #colorlib-logo a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-right: .3em;
+  }
+  
+  #colorlib-aside #colorlib-main-menu ul {
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+    
+  }
+
+  #colorlib-aside #colorlib-main-menu ul li {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  #colorlib-aside #colorlib-main-menu ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    position: relative;
+    padding: 10px 0;
+    font-family: "Quicksand", Arial, sans-serif;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; 
+    
+  }
+  #colorlib-aside #colorlib-main-menu ul li a:after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    background-color: #FFC300;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  #colorlib-aside #colorlib-main-menu ul li a:hover {
+    text-decoration: none;
+    color: white; 
+  }
+  #colorlib-aside #colorlib-main-menu ul li.colorlib-active a {
+    color: #FFC300; 
+  }
+  #colorlib-aside #colorlib-main-menu ul li.colorlib-active a:after {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    transform: scaleX(1);
+  }
